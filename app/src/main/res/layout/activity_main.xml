@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context="com.example.simha.presenter.MainActivity">
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/heading"
+                android:text="Add Presentation" />
+
+            <EditText
+                android:id="@+id/addName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Presentation name here"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/addBtn"
+                style="@style/btn"
+                android:text="Add" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/heading"
+                android:text="Control Presentation" />
+
+            <EditText
+                android:id="@+id/controlName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Presentation name here"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/controlBtn"
+                style="@style/btn"
+                android:text="Control" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

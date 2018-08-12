@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.simha.presenter.ControlActivity">
+
+    <TextView
+        android:id="@+id/present_name"
+        style="@style/heading" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle_bg">
+
+            <Button
+                android:id="@+id/button_play_pause_toggle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/play_icon"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/present_previous"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/button_play_pause_toggle"
+                android:background="@drawable/arrow_left" />
+
+            <Button
+                android:id="@+id/present_next"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/button_play_pause_toggle"
+                android:background="@drawable/arrow_right" />
+
+            <Button
+                android:id="@+id/present_up"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_above="@+id/button_play_pause_toggle"
+                android:layout_toEndOf="@+id/present_previous"
+                android:background="@drawable/arrow_up" />
+
+            <Button
+                android:id="@+id/present_down"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/button_play_pause_toggle"
+                android:layout_toEndOf="@+id/present_previous"
+                android:background="@drawable/arrow_down" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

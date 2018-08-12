@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "78043337062",
+    "firebase_url": "https://presenter-f84d8.firebaseio.com",
+    "project_id": "presenter-f84d8",
+    "storage_bucket": "presenter-f84d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78043337062:android:c68384072e7c6d2c",
+        "android_client_info": {
+          "package_name": "com.example.simha.presenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78043337062-na9scdh8avj3jvp7g07hhu0ges8nq557.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simha.presenter",
+            "certificate_hash": "55660a2f95f9adef65c084e201552475daa18cda"
+          }
+        },
+        {
+          "client_id": "78043337062-k3d5kiisgde0ga2nj2dbk5p34pod1s04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSI_hY-qkbixU41C4y7RA9alR-MtglGPM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78043337062-k3d5kiisgde0ga2nj2dbk5p34pod1s04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
